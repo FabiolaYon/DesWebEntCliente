@@ -1,0 +1,29 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    margin: 20px;
+    background-image: url(imagenes/IMGpracticaUno_toDoList.jpg);
+}
+
+li {
+    margin: 10px 0;
+}
+
+ul {
+    /* Eliminar puntito del <ul> */
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Para subrayar tareas completadas */
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Estilo básico para el input del calendario */
+input[type="date"] {
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+}

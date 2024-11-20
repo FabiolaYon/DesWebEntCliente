@@ -14,7 +14,7 @@ function agregarTarea() {
 
     // Crear un nuevo elemento de lista
     let nuevaTarea = document.createElement("li");
-    nuevaTarea.textContent = `${nuevaTareaTexto} - Fecha: ${fechaTarea} `;
+    nuevaTarea.textContent = nuevaTareaTexto + " - Fecha: " + fechaTarea;
 
     // Agregar evento para marcar la tarea como completada
     nuevaTarea.addEventListener("click", function () {

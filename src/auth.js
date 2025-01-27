@@ -1,7 +1,5 @@
-// auth.js
-
-const clientId = "47c200312a434a9db75bec9b963c3b03"; 
-const redirectUri = "http://localhost/FABIOLA/spotify-app-main";
+const clientId = ""; 
+const redirectUri = "http://localhost";
 const scopes = [
     "user-read-private",
     "user-read-email",

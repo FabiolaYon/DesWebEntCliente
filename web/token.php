@@ -16,9 +16,9 @@ if (!$code) {
 }
 
 // Configuración de la aplicación Spotify
-$clientId = '47c200312a434a9db75bec9b963c3b03'; //Client ID
-$clientSecret = 'ad4a53a6c7fe4a0283fcddbcd6c09f7c'; // Client Secret
-$redirectUri = 'http://localhost/FABIOLA/spotify-app-main'; // Redirect URI
+$clientId = ''; //Client ID
+$clientSecret = ''; // Client Secret
+$redirectUri = 'http://localhost'; // Redirect URI
 
 // Datos para la solicitud de token
 $data = [

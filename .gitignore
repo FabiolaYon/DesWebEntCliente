@@ -1,0 +1,2 @@
+# Evitar subir tokens de acceso y secretos
+.env

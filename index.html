@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify API Login</title>
+</head>
+<body>
+    <h1>Spotify for Developers: DesWebEntCliente_Fabiola</h1>
+    <button id="spotify-login">Spotify login</button>
+
+    <!-- Información de usuario loggeado-->
+    <div id="user-info" style="display: none;">
+        <h2>Información del usuario:</h2>
+        <p id="user-name"></p>
+        <p id="user-email"></p>
+        <img id="user-image" src="" alt="Foto de perfil" style="width: 100px; height: 100px; border-radius: 50%;"/>
+    </div>    
+
+    <script type="module">
+        import { redirectToSpotifyLogin, handleSpotifyRedirect } from './src/auth.js';
+
+        // Asigna la funcionalidad al botón de login
+        const loginButton = document.getElementById('spotify-login');
+        loginButton.addEventListener('click', redirectToSpotifyLogin);
+
+        // Maneja el redireccionamiento al cargar la página
+        if (window.location.search.includes("code")) {
+            handleSpotifyRedirect();
+        }
+    </script>
+</body>
+</html>

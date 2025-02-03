@@ -7,6 +7,6 @@ Tiene que estar bien informado y no olvidar utilizar las comas.
     
     dependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React.
     
-    devDependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React.
+    devDependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React. Aquí se añadirán cosas para el testing.
 
 */

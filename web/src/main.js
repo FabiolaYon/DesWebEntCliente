@@ -2,6 +2,7 @@ import getUsers from './use-cases/getUsers.js';
 
 console.log("Hello World");
 
-const userList = getUsers(); // Llamamos a la función
+const userList = getUsers(); // funcion de usuarios
 console.log('User List: ')
-console.log(userList); // Mostramos la lista de usuarios en consola
+console.log(userList); // mostrar los usuarios en array
+

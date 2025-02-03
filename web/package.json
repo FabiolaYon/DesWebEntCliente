@@ -1,12 +1,16 @@
-/*
-Tiene que estar bien informado y no olvidar utilizar las comas.
-
-    scripts ->  Esto va a ser una línea que se ejecuta en el terminal. Desde Docker puedo lanzar cosas que están en package.json
-                build
-                test
-    
-    dependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React.
-    
-    devDependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React. Aquí se añadirán cosas para el testing.
-
-*/
+{
+    "name": "spotify-web",
+    "version": "1.0.0",
+    "description": "Proyecto Spotify",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+     "type": "module"
+}

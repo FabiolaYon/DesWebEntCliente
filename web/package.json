@@ -1,0 +1,12 @@
+/*
+Tiene que estar bien informado y no olvidar utilizar las comas.
+
+    scripts ->  Esto va a ser una línea que se ejecuta en el terminal. Desde Docker puedo lanzar cosas que están en package.json
+                build
+                test
+    
+    dependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React.
+    
+    devDependencies -> Por ahora no vamos a tener nada. Pero será importante porque vamos a utilizar React.
+
+*/

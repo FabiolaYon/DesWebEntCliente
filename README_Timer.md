@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # DesWebEntCliente
 DAW 2 - Desarrollo de Aplicaciones Web en Entorno Cliente
 
@@ -27,8 +26,6 @@ GIT - Uso de ramas: Usa una rama para cada funcionalidad que hayas planificado
 
 La entrega será la ruta hacia tu proyecto (tanto el proyecto como el repositorio deberán ser públicos)
 
-=======
->>>>>>> 71b4f8f (Inicio git en Timer)
 # TIMER
 
 ## Crea un timer con la siguiente funcionalidad
@@ -43,11 +40,4 @@ La entrega será la ruta hacia tu proyecto (tanto el proyecto como el repositori
 - Estructura de .git
 - Estructura de proyecto node (npm)
 - .gitignore
-<<<<<<< HEAD
 - Debe ser modular 
-
-
-## Siguientes prácticas..
-=======
-- Debe ser modular 
->>>>>>> 71b4f8f (Inicio git en Timer)

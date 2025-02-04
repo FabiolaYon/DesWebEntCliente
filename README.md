@@ -26,4 +26,21 @@ GIT - Uso de ramas: Usa una rama para cada funcionalidad que hayas planificado
 
 La entrega será la ruta hacia tu proyecto (tanto el proyecto como el repositorio deberán ser públicos)
 
-## Siguientes prácticas...
+# TIMER
+
+## Crea un timer con la siguiente funcionalidad
+
+- Un botón de UP que añada minutos al timer (hasta 59)
+- Un botón de DOWN que reste minutos al timer (hasta 0)
+- un botón de START que haga comience el timer (de forma decreciente)
+- Un botón de RESET que coloque el contador al último valor introducido y lo pare
+
+## El proyecto tiene que tener
+
+- Estructura de .git
+- Estructura de proyecto node (npm)
+- .gitignore
+- Debe ser modular 
+
+
+## Siguientes prácticas..

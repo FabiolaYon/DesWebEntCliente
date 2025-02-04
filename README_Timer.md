@@ -37,12 +37,6 @@ La entrega será la ruta hacia tu proyecto (tanto el proyecto como el repositori
 
 ## El proyecto tiene que tener
 
-- Estructura de .git
-- Estructura de proyecto node (npm)
-- .gitignore
-- Debe ser modular 
-
-
 - Estructura de git:
 
 ```sh

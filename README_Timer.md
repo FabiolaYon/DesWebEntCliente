@@ -41,3 +41,25 @@ La entrega será la ruta hacia tu proyecto (tanto el proyecto como el repositori
 - Estructura de proyecto node (npm)
 - .gitignore
 - Debe ser modular 
+
+
+- Estructura de git:
+
+```sh
+git init nombreProyecto
+```
+
+- Estrucura de proyecto node(npm)
+
+```sh
+# en la carpeta del proyecto
+npm init
+
+# o creando la carpeta del proyecto
+
+mpm init nombreProyecto
+```
+
+- .gitignore (al menos la carpeta node_modules)
+- Debe ser modular
+- Con modular es que no se deben cargar más scripts, todo debe manejarlo main.js

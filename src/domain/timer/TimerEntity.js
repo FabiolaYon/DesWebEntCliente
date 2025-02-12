@@ -27,10 +27,21 @@ class Timer {
     * Get formatted seconds
     * @return {String} seconds in two digits
     */
-    getSeconds() {
+
+    /*getSeconds() {
         let minutes = (this.remainingTime % 60)
         return minutes.toLocaleString(...TIME_FORMAT)
+    }*/
+
+    /**
+     * Error línea 33, está devolviendo minutos y debe devolver segundos, corrección abajo:
+     */
+
+    getSeconds() {
+        let seconds = (this.remainingTime % 60)
+        return seconds.toLocaleString(...TIME_FORMAT)
     }
+    
 }
 
 export default Timer
